@@ -1,11 +1,8 @@
 {
-  "name": "cassandra-store",
-  "description": "Implementation of the session storage in Apache Cassandra as express middleware.",
-  "version": "3.0.0",
-  "author": {
-    "name": "Web Compliance Center",
-    "email": "webcc@fit.fraunhofer.de"
-  },
+  "name": "cassandra-session-store",
+  "version": "1.0.0",
+  "description": "Implementation of the session storage in Apache Cassandra as express middleware",
+  "main": "./lib/cassandra-store",
   "dependencies": {
     "cassandra-driver": "^3.0.2",
     "express-session": "^1.13.0"
@@ -15,15 +12,32 @@
     "mocha": "^2.4.5",
     "uuid": "^2.0.1"
   },
-  "homepage": "https://imergo.com/solutions/opensource.html",
-  "main": "./lib/cassandra-store",
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/webcc/cassandra-store.git"
-  },
   "scripts": {
     "test": "mocha -t 5000"
   },
-  "readmeFilename": "README.md"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razvanz/cassandra-store.git"
+  },
+  "keywords": [
+    "express-session",
+    "session-store",
+    "session",
+    "cassandra",
+    "cassandra-store",
+    "cassandra-session"
+  ],
+  "author": {
+    "name": "Web Compliance Center",
+    "email": "webcc@fit.fraunhofer.de"
+  },
+  "contributors": [{
+    "name": "Razvan Laurus",
+    "email": "razvan.laurus@gmail.com"
+  }],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/razvanz/cassandra-store/issues"
+  },
+  "homepage": "https://github.com/razvanz/cassandra-store#readme"
 }
