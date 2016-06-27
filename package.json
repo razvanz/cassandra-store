@@ -7,7 +7,7 @@
     "email": "webcc@fit.fraunhofer.de"
   },
   "dependencies": {
-    "cassandra-driver": "^3.0.1",
+    "cassandra-driver": "^3.0.2",
     "express-session": "^1.13.0"
   },
   "devDependencies": {
