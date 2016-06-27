@@ -1,3 +1,5 @@
+Fork of [webcc/cassandra-store](https://github.com/webcc/cassandra-store). It differs slightly in implementation, making use Cassandra TTL functionality for session expiry.
+
 cassandra-store
 ===============
 
