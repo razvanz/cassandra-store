@@ -79,3 +79,9 @@ cqlsh -f ./cql/create.cql
 # Run tests with
 npm test
 ```
+
+Changelog
+=========
+
+-	v1.0.1 - Fix float TTL bug
+-	v1.0.0 - Initial release
