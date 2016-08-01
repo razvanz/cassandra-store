@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5",
+    "mocha": "^3.0.0",
     "uuid": "^2.0.1"
   },
   "scripts": {
@@ -31,10 +31,12 @@
     "name": "Web Compliance Center",
     "email": "webcc@fit.fraunhofer.de"
   },
-  "contributors": [{
-    "name": "Razvan Laurus",
-    "email": "razvan.laurus@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Razvan Laurus",
+      "email": "razvan.laurus@gmail.com"
+    }
+  ],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/razvanz/cassandra-store/issues"
