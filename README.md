@@ -83,5 +83,6 @@ npm test
 Changelog
 =========
 
+-	v1.0.2 - Update dependencies
 -	v1.0.1 - Fix float TTL bug
 -	v1.0.0 - Initial release

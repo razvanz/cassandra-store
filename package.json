@@ -1,6 +1,6 @@
 {
   "name": "cassandra-session-store",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Implementation of the session storage in Apache Cassandra as express middleware",
   "main": "./lib/cassandra-store",
   "dependencies": {
