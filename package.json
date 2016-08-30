@@ -4,7 +4,7 @@
   "description": "Implementation of the session storage in Apache Cassandra as express middleware",
   "main": "./lib/cassandra-store",
   "dependencies": {
-    "cassandra-driver": "^3.0.2",
+    "cassandra-driver": "^3.1.2",
     "express-session": "^1.13.0"
   },
   "devDependencies": {
