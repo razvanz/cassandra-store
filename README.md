@@ -83,6 +83,7 @@ npm test
 Changelog
 =========
 
+-	v1.0.3 - Update dependencies: `cassandra-driver@3.1.3`, `express-session@1.14.1`
 -	v1.0.2 - Update dependencies
 -	v1.0.1 - Fix float TTL bug
 -	v1.0.0 - Initial release
