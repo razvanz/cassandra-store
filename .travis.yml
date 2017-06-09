@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - '6'
+  - '4'
+services:
+  - docker
+before_install:
+  - DB_CONTAINER_NAME="cassandra"
+  - docker run -d -p 9042:9042 -p 9160:9160 --name $DB_CONTAINER_NAME cassandra:3
+  - sleep 30 # allow cassandra to start
+install:
+  - docker cp ./cql/create.cql $DB_CONTAINER_NAME:/tmp/
+  - docker exec -it $DB_CONTAINER_NAME cqlsh -f /tmp/create.cql
+  - npm i
+script:
+  - npm test
+after_script:
+  - docker stop $DB_CONTAINER_NAME
+  - docker rm $DB_CONTAINER_NAME
