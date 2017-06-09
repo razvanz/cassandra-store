@@ -1,6 +1,6 @@
 Fork of [webcc/cassandra-store](https://github.com/webcc/cassandra-store). It differs slightly in implementation, making use Cassandra TTL functionality for session expiry.
 
-cassandra-store [![Build Status](https://travis-ci.org/razvanz/cassandra-store.svg?branch=master)](https://travis-ci.org/razvanz/cassandra-store)
+cassandra-store [![Greenkeeper badge](https://badges.greenkeeper.io/razvanz/cassandra-store.svg)](https://greenkeeper.io/) [![Build Status](https://travis-ci.org/razvanz/cassandra-store.svg?branch=master)](https://travis-ci.org/razvanz/cassandra-store)
 ===============
 
 Implementation of the session storage in Apache Cassandra as express middleware.
