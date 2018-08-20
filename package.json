@@ -13,7 +13,7 @@
     "uuid": "^3.0.1"
   },
   "scripts": {
-    "test": "mocha -t 5000"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
