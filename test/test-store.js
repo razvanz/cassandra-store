@@ -10,6 +10,7 @@ const options = {
   table: 'sessions',
   clientOptions: {
     contactPoints: [process.env.DBHOST || 'localhost'],
+    localDataCenter: 'datacenter1',
     keyspace: 'sessions_store'
   }
 };
