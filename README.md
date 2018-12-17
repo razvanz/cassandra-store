@@ -36,6 +36,7 @@ Options
     client: null, // an existing cassandra client
     clientOptions: { // more https://github.com/datastax/nodejs-driver
         contactPoints: [ "localhost" ],
+        localDataCenter: 'datacenter1',
         keyspace: "sessions_store"
     }
 };
@@ -83,6 +84,7 @@ npm test
 Changelog
 =========
 
+- v2.0.0 - Update dependencies: `cassandra-driver@4.0.0`
 -	v1.0.6 - Update dependencies: `mocha@3.4.1`, `cassandra-driver@3.2.1`, `express-session@1.15.2`
 -	v1.0.5 - Update dependencies: `uuid@3.0.1`, `mocha@3.2.0`, `cassandra-driver@3.2.0`, `express-session@1.15.1`
 -	v1.0.4 - Update dependencies: `uuid@2.0.3`, `mocha@3.1.0`
